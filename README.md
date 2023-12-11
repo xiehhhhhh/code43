@@ -2,7 +2,7 @@
 #include "stm32f10x.h"                  // Device header
 #include <stdio.h>
 #include <stdarg.h>
-
+ 
 char Serial_RxPacket[100];				//"@MSG\r\n"
 uint8_t Serial_RxFlag;
 
